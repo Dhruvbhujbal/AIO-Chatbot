@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you?",
+        "What's up?",
+        "Hey there!"
+      ],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care",
+        "Catch you later",
+        "I'm leaving now"
+      ],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me",
+        "I have a question",
+        "Can you assist me?",
+        "I need help"
+      ],
+      "responses": ["Of course! What do you need help with?", "Sure, I'm here to help!"]
+    },
+    {
+      "tag": "reminder",
+      "patterns": [
+        "Set a reminder",
+        "Reminder",
+        "Please remind me",
+        "I need a reminder",
+        "Can you remind me later?",
+        "Remind me about my task"
+      ],
+      "responses": ["What would you like me to remind you about?"]
+    },
+    {
+      "tag": "calendar",
+      "patterns": [
+        "Show me the calendar",
+        "What’s the date?",
+        "Calendar",
+        "What day is it today?",
+        "Can you show me the calendar?",
+        "What's today's date?"
+      ],
+      "responses": ["Here is the calendar for this month."]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "Tell me the weather",
+        "What's the weather like?",
+        "What's the weather in [city]?",
+        "Can you get me the weather?",
+        "Give me some information",
+        "What can you tell me about [topic]?",
+        "Do you know about [topic]?",
+        "Explain [topic]",
+        "Tell me about [topic]"
+      ],
+      "responses": [
+        "Sure! I can provide information like the weather or news. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that.",
+        "Can you rephrase your question?",
+        "I didn't get that. Can you say it differently?",
+        "I'm not sure about that. Could you ask something else?"
+      ]
+    }
+  ]
+}
