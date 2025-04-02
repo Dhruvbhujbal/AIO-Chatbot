@@ -16,13 +16,13 @@ AIO Chatbot is an **AI-powered multi-functional assistant** designed to handle d
 
 ## **Core Technologies Used**  
 
-### ** AI & Backend**  
+### **AI & Backend**  
  **Groq API** – NLP-based AI for intelligent responses.  
  **Flask (Python)** – Manages chatbot logic and API integrations.  
  **MySQL Database** – Stores reminders and user interactions.  
  **OpenWeatherMap API** – Fetches real-time weather updates.  
 
-### **🎨 Frontend & UI**  
+### **Frontend & UI**  
  **React.js** – Creates an interactive user experience.  
  **Bootstrap** – Enhances styling and responsiveness.  
 
