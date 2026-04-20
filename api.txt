@@ -1,3 +1,3 @@
 
-$env:GROQ_API_KEY="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"
-$env:WEATHER_API_KEY="66ac1a28d0f997cdb3bc82f76d6f3c59"
+$env:GROQ_API_KEY="api key"
+$env:WEATHER_API_KEY="api key"
